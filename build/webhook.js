@@ -6,6 +6,9 @@ http.createServer(function (req, res) {
     if(req.url === '/hexo-blog/rebuild'){
         // 如果url匹配，表示认证通过，则执行 sh ./deploy.sh
         exec('sh ./deploy.sh')
-    }
-    res.end()
-}).listen(9001)
+		res.end('OK:' + new Date(Date.now()))
+    }else{
+		res.end('invalid path:' + new Date(Date.now()))
+	}
+    
+}).listen(9001) 
