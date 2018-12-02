@@ -78,7 +78,7 @@ sidebar:
     left:
         # Whether the left sidebar is sticky when page scrolls
         # http://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
-        sticky: false
+        sticky: true
     # right sidebar settings
     right:
         # Whether the right sidebar is sticky when page scrolls
@@ -114,19 +114,10 @@ widgets:
                 url: /
     -
         type: toc
-        position: left
-    -
-        type: links
-        position: left
-        links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+        position: left 
     -
         type: category
-        position: left
-    -
-        type: tagcloud
-        position: left
+        position: right
     -
         type: recent_posts
         position: right
@@ -134,8 +125,17 @@ widgets:
         type: archive
         position: right
     -
-        type: tag
+        type: tagcloud
         position: right
+    -
+        type: links
+        position: right
+        links:
+            Hexo: 'https://hexo.io'
+            PPOffice: 'https://github.com/ppoffice'
+   # -
+       # type: tag
+       # position: right
 # Other plugin settings
 plugins:
     # Enable page animations

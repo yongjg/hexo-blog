@@ -2,7 +2,10 @@
 title: JVM GC collector
 date: 2018-12-02 10:48:35
 tags: [JVM,GC]
+toc: true
+thumbnail: /gallery/keyboard-black-notebook-input.jpeg
 ---
+
 ### 根对象集合
 1. java栈中的对象引用
 1. 本地方法栈中的对象引用
