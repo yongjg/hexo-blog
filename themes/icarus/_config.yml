@@ -64,12 +64,13 @@ search:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins
 comment:
     # Name of the comment plugin
-    type: 
+    type: livere
+    uid: MTAyMC80MTQwNi8xNzk1Mw==
 # Share plugin settings
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Share-Plugins
 share:
     # Share plugin name
-    type: 
+    type: bdshare
 # Sidebar settings.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
