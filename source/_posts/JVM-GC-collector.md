@@ -2,6 +2,7 @@
 title: JVM GC collector
 date: 2018-12-02 10:48:35
 tags: [JVM,GC]
+categories: 技术
 toc: true
 thumbnail: /gallery/keyboard-black-notebook-input.jpeg
 ---

@@ -2,6 +2,7 @@
 title: 从Swing EDT到多线程以及线程安全
 date: 2018-12-25 13:12:03
 tags: [EDT,Thread Safety]
+categories: 技术
 toc: true
 thumbnail: gallery/celebration-christmas-decorate.jpeg
 ---

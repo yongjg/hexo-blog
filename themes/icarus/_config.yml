@@ -1,11 +1,13 @@
 # Version of the Icarus theme that is currently used
 version: 2.0.0
 # Path or URL to the website's icon
-favicon: /images/favicon.svg
+favicon: /images/favicon.png
 # Path or URL to RSS atom.xml
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/logo.svg
+logo: 
+    text: 大苹果的博客
+
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -23,16 +25,15 @@ open_graph:
 navbar:
     # Navigation bar menu links
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Navigation bar links to be shown on the right
     links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'http://github.com/ppoffice/hexo-theme-icarus'
+    #    关于: /about
+    sticky: true
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -64,8 +65,17 @@ search:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins
 comment:
     # Name of the comment plugin
-    type: livere
-    uid: MTAyMC80MTQwNi8xNzk1Mw==
+    # type: livere
+    # uid: MTAyMC80MTQwNi8xNzk1Mw==
+    type: valine
+    app_id: 5zelXququFVbab3IROABgPS1-gzGzoHsz        # (required) LeanCloud application id
+    app_key: qCnKq6P2DDgJt4iTl04p3d4R       # (required) LeanCloud application key
+    notify: false           # (optional) receive email notification
+    verify: false           # (optional) show verification code
+    placeholder: 留下足迹...   # (optional) comment box placeholder text
+    visitor: true
+    avatar: identicon
+    #
 # Share plugin settings
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Share-Plugins
 share:
@@ -89,50 +99,46 @@ sidebar:
 widgets:
     -
         type: profile
-        position: left
+        position: right
         author: 红红的大苹果
         author_title: 三杯通大道，一斗合自然
         location: Shanghai
         avatar: 
         gravatar: 
-        follow_link: 'http://github.com/yongjg'
+        follow_link: '/about'
         social_links:
             Github:
-                icon: fab fa-github
+                icon: fab fa-github fa-lg
                 url: 'http://github.com/yongjg'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'http://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'http://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'http://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+            WeChat:
+                icon: fab fa-weixin fa-lg
+                url: '/images/WeChat.jpg'
+            EMAIL:
+                icon: far fa-envelope fa-lg
+                url: 'mailto://guyong666@126.com'
     -
         type: toc
         position: left 
-    -
-        type: category
-        position: right
+
     -
         type: recent_posts
-        position: right
+        position: left
+        
     -
-        type: archive
-        position: right
+        type: category
+        position: left
+   # -
+   #     type: archive
+   #     position: right
     -
         type: tagcloud
         position: right
-    -
-        type: links
-        position: right
-        links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+   # -
+   #     type: links
+   #     position: right
+   #     links:
+   #         Hexo: 'https://hexo.io'
+   #         PPOffice: 'https://github.com/ppoffice'
    # -
        # type: tag
        # position: right
