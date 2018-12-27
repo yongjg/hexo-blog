@@ -1,0 +1,21 @@
+<div class="justified-gallery">
+  <% if (photos.length){ %>
+    <%
+      photos.forEach(function(photo) {
+	  var path = '';
+	  var desc = photo;
+	  if(!photo.endsWith('.md')){
+		path = config.root + photo;
+	  }
+        
+    %>
+	  <% if(path){ %> 
+		<a class="gallery-item" href="<%-path %>">
+			<img src="<%-path %>" alt="<%-desc%>">
+			<div class="has-text-centered is-size-6 has-text-grey caption"><%-desc%></div>
+		</a>
+	  <% } %>
+    <% }); %>
+  <% } %>
+
+</div>
