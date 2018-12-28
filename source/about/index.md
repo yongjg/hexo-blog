@@ -3,7 +3,7 @@ title: 个人简介
 date: 2018-12-27 17:09:50
 ---
 
-Key | Value
+ Key | Value
 ---------|----------
  姓名 | YongJing Gu 
  昵称 | 大苹果 

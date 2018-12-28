@@ -101,7 +101,7 @@ widgets:
         type: profile
         position: right
         author: 红红的大苹果
-        author_title: 三杯通大道，一斗合自然
+        author_title: 有时在Coding，常常在Thinking
         location: Shanghai
         avatar: 
         gravatar: 
@@ -161,7 +161,7 @@ plugins:
     # http://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
     google-analytics:
         # Google Analytics tracking id
-        tracking_id: 
+        tracking_id: UA-131406819-1
     # Baidu Analytics plugin settings
     # http://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Baidu-Analytics
     baidu-analytics:
