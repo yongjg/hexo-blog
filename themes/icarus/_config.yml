@@ -88,12 +88,12 @@ sidebar:
     left:
         # Whether the left sidebar is sticky when page scrolls
         # http://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
-        sticky: true
+        sticky: false
     # right sidebar settings
     right:
         # Whether the right sidebar is sticky when page scrolls
         # http://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
-        sticky: false
+        sticky: true
 # Sidebar widget settings
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -118,15 +118,15 @@ widgets:
                 url: 'mailto://guyong666@126.com'
     -
         type: toc
-        position: left 
+        position: right 
 
     -
         type: recent_posts
-        position: left
+        position: right
         
     -
         type: category
-        position: left
+        position: right
    # -
    #     type: archive
    #     position: right

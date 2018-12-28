@@ -1,4 +1,6 @@
-<% function avatar() {
+<%
+if (!is_post()){
+function avatar() {
     const avatar = get_config_from_obj(widget, 'avatar');
     const gravatar_email = get_config_from_obj(widget, 'gravatar');
     if (gravatar_email !== null) {
@@ -95,3 +97,4 @@
         <% } %>
     </div>
 </div>
+<% } %>

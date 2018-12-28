@@ -1,3 +1,4 @@
+<% if(!is_post()) {%>
 <% const links = get_config_from_obj(widget, 'links'); %>
 <% if (links !== null) { %>
 <div class="card widget">
@@ -23,4 +24,5 @@
         </div>
     </div>
 </div>
+<% } %>
 <% } %>
